@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SkillSprout MoodScape</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1> SkillSprout MoodScape</h1>
+<p>Your Emotion-Based Experience Generator</p>
+</header>
+<div class="card">
+<h2>How are you feeling today?</h2>
+<select id="mood">
+<option value="">Select Mood</option>
+<option value="happy"> Happy</option>
+<option value="sad"> Sad</option>
+<option value="focus"> Focused</option>
+<option value="stress"> Stressed</option>
+<option value="excited"> Excited</option>
+</select>
+<button onclick="generate()">Generate My Experience</button>
+<div id="result">
+<h3 id="message"></h3>
+<p id="music"></p>
+<p id="challenge"></p>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
